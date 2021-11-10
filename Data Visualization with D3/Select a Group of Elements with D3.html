@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Select a Group of Elements with D3</title>
+    </head>
+    <body>
+        <ul>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+        </ul>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.1/d3.min.js"
+            integrity="sha512-COTaPOlz12cG4fSfcBsxZsjauBAyldqp+8FQUM/dZHm+ts/jR4AFoJhCqxy8K10Jrf3pojfsbq7fAPTb1XaVkg=="
+            crossorigin="anonymous"
+        ></script>
+
+        <script>
+            // Add your code below this line
+
+            const anchors = d3.selectAll("li");
+            anchors.text("list item");
+
+            // Add your code above this line
+        </script>
+    </body>
+</html>
